@@ -2,6 +2,7 @@ name: Test HCP connection workflow
 
 on: 
   workflow_dispatch: 
+  push:
 
 jobs:
   build:      
